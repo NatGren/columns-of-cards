@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: #e2e2e2;
+  background-color: #fff;
   font-family: Georgia, serif;
   line-height: 1.5;
 }
@@ -9,18 +9,57 @@ html {
   box-sizing: inherit;
 }
 
-div {
+section {
   display: inline-block;
-  margin: 0 .5em 1em;
-  max-width: 20em;
-  padding: 1em;
-  background-color: #fff;
-  border: 3px solid #e2e2e2;
-  border-radius: 10px;
+
 }
 
 .cards {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.Anderon {
+  background-color: #e2e2e2;
+  display: inline-block;
+  margin: 0 auto 1.5rem;
+  max-width: 20em;
+  padding: 1.5rem;
+  border: 3px solid #e2e2e2;
+  border-radius: 10px;
+}
+
+.Dinosaurs {
+  background-color: #ccc;
+  display: inline-block;
+  margin: 0;
+  max-width: 20em;
+  padding: 1em;
+  border: 3px solid #e2e2e2;
+  border-radius: 10px;
+}
+
+.Dragon {
+  background-color: #aaa;
+  display: inline-block;
+  margin: 0;
+  max-width: 20em;
+  padding: 1em;
+  border: 3px solid #e2e2e2;
+  border-radius: 10px;
+}
+
+.Ships {
+  background-color: #999;
+  display: inline-block;
+  margin: 0;
+  max-width: 20em;
+  padding: 1em;
+  border: 3px solid #e2e2e2;
+  border-radius: 10px;
+}
+
+img {
+  width: 100px;
 }
