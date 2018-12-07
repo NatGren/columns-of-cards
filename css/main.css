@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: #fff;
-  font-family: Georgia, serif;
+  font-family: Open Sans, sans-serif;
   line-height: 1.5;
 }
 
@@ -9,57 +8,86 @@ html {
   box-sizing: inherit;
 }
 
-section {
-  display: inline-block;
-
+body {
+  margin: 0;
+  background-color: #f2f2f2;
 }
 
-.cards {
-  margin: 0;
+ul {
+  margin: 0 auto 1.5rem;
   padding: 0;
+  display: flex;
+  font-size: .875rem;
   list-style-type: none;
+}
+
+li {
+  margin: 0 0 1.5rem;
+  padding: .75rem;
+  border-left: 1px solid #333;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+}
+
+strong {
+  margin: 0;
+  font-weight: bold;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 100px;
+  display: block;
+}
+
+.name {
+  margin: 0;
+  font-style: italic;
 }
 
 .Anderon {
   background-color: #e2e2e2;
-  display: inline-block;
-  margin: 0 auto 1.5rem;
-  max-width: 20em;
-  padding: 1.5rem;
-  border: 3px solid #e2e2e2;
-  border-radius: 10px;
 }
 
 .Dinosaurs {
   background-color: #ccc;
-  display: inline-block;
-  margin: 0;
-  max-width: 20em;
-  padding: 1em;
-  border: 3px solid #e2e2e2;
-  border-radius: 10px;
 }
 
 .Dragon {
   background-color: #aaa;
-  display: inline-block;
-  margin: 0;
-  max-width: 20em;
-  padding: 1em;
-  border: 3px solid #e2e2e2;
-  border-radius: 10px;
 }
 
 .Ships {
   background-color: #999;
-  display: inline-block;
-  margin: 0;
-  max-width: 20em;
-  padding: 1em;
-  border: 3px solid #e2e2e2;
-  border-radius: 10px;
 }
 
-img {
-  width: 100px;
+.btn {
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  border: 3px solid #333;
+  display: block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn:hover {
+  border-radius: 8px;
+  border: 3px solid #000;
+  background-color: #000;
 }
