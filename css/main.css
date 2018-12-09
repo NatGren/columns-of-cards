@@ -13,15 +13,11 @@ body {
   background-color: #f2f2f2;
 }
 
-div {
-  margin-top: 1rem;
-}
-
 ul {
   margin: 0 auto 1.5rem;
   padding: 0;
   display: flex;
-  font-size: .9rem;
+  font-size: .875rem;
   list-style-type: none;
 }
 
@@ -56,9 +52,14 @@ img {
   display: block;
 }
 
+.cards {
+  padding-right: 1em;
+}
+
 .name {
   margin: 0;
   font-style: italic;
+  font-size: .95em;
 }
 
 .anderon {
@@ -89,6 +90,7 @@ img {
 
 .btn-small {
   font-size: .875rem;
+  font-weight: bold;
 }
 
 .btn:hover {
@@ -99,7 +101,7 @@ img {
 
 .text {
   margin-top: 0;
-  margin-bottom: .5rem;
+  margin-bottom: 1.5rem;
   flex-grow: 1;
-  font-size: .95rem;
+  font-size: 1rem;
 }
